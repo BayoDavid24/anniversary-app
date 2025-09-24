@@ -15,11 +15,11 @@ import { Switch } from "@/components/ui/switch";
 // placeholders — change these
 const NAMES = { you: "Your Name", partner: "Your Partner" };
 const anniversaryDate = new Date(2025, 8, 25, 0, 0, 0);
-const VALID_USERNAME = "Fluffy";     // her first pet's name
+const VALID_USERNAME = "Bubbles";     // her first pet's name
 const VALID_PASSWORD = "25092025";  // ddmmyyyy
 
 const placeholderImages = [
-  { src: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop", caption: "Our Smile #1" },
+  { src: "components/images", caption: "Our Smile #1" },
   { src: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1200&auto=format&fit=crop", caption: "Coffee Date" },
   { src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1200&auto=format&fit=crop", caption: "City Walks" },
   { src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop", caption: "Cozy Moments" },
@@ -158,7 +158,7 @@ const AnniversaryAppContent = () => {
   return (
     <div className="min-h-screen relative bg-gradient-to-br from-pink-100 via-rose-100 to-fuchsia-100 text-zinc-800">
       <FloatingHearts count={24} />
-      <audio ref={audioRef} src="your-song.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="components/music.mp3" loop preload="auto" />
 
       <header className="max-w-5xl mx-auto px-4 pt-12 pb-8 text-center">
         <motion.h1 className="text-4xl sm:text-6xl font-extrabold">Happy Anniversary</motion.h1>
