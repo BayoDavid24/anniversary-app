@@ -19,7 +19,7 @@ const VALID_USERNAME = "Bubbles";     // her first pet's name
 const VALID_PASSWORD = "25092025";  // ddmmyyyy
 
 const placeholderImages = [
-  { src: "/images/ice-ream.jpeg", caption: "Ice Cream Date" },
+  { src: "/components/images/ice-ream.jpeg", caption: "Ice Cream Date" },
   { src: "/images/hands.jpeg", caption: "Indomie Date" },
   { src: "/images/limo-ride.jpeg", caption: "Limo Ride" },
   { src: "/images/beach.jpeg", caption: "Beach Outing" },
