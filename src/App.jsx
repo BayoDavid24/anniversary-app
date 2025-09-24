@@ -167,7 +167,11 @@ const AnniversaryAppContent = () => {
 
       <main className="max-w-5xl mx-auto px-4 pb-24 space-y-6">
         <Section title="A Little Love Note" icon={<Heart className="w-5 h-5" />}>
-          <p>Hey love, <span className="font-semibold">[Write your sweet message here]</span>. 💕</p>
+          <p>Hey love, <span className="font-semibold">In this one year together, every nickname I’ve given you has carried a piece of my heart. When I called you Bubbles, it was because you filled my world with joy, lightness, and laughter. When I called you Bee, it was because your sweetness and quiet strength are always buzzing in my heart. Calling you Baby was my way of saying you are the one I want to hold, protect, and never let go. When I called you Smallie, it was because you are my delicate treasure, the little part of my world I cherish most. Ria flowed from my lips because, like a river, you bring calm and grace to my life. Tory reminded me of a bird—free, adventurous, and always lifting me higher. And when I called you Vikky, it was because you are my victory, my greatest blessing, my proof that love always wins.
+
+Every name has always meant just one thing: I love you. And I hope this past year has shown you that my love is real, deep, and forever yours.
+
+Happy 1-year anniversary, my love 💕</span>. 💕</p>
         </Section>
 
         <Section title="Our Gallery" icon={<ImageIcon className="w-5 h-5" />}>
