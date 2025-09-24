@@ -19,10 +19,10 @@ const VALID_USERNAME = "Bubbles";     // her first pet's name
 const VALID_PASSWORD = "25092025";  // ddmmyyyy
 
 const placeholderImages = [
-  { src: "components/images", caption: "Our Smile #1" },
-  { src: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1200&auto=format&fit=crop", caption: "Coffee Date" },
-  { src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1200&auto=format&fit=crop", caption: "City Walks" },
-  { src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop", caption: "Cozy Moments" },
+  { src: "components/images/ice-ream.jpeg", caption: "Ice Cream Date" },
+  { src: "components/images/hands.jpeg", caption: "Indomie Date" },
+  { src: "components/images/limo-ride.jpeg", caption: "Limo Ride" },
+  { src: "components/images/beach.jpeg", caption: "Beach Outing" },
 ];
 
 function useCountdown(targetDate) {
