@@ -13,7 +13,7 @@ import { Switch } from "@/components/ui/switch";
  */
 
 // placeholders — change these
-const NAMES = { you: "Your Name", partner: "Your Partner" };
+const NAMES = { you: "Dee", partner: "Bee" };
 const anniversaryDate = new Date(2025, 8, 25, 0, 0, 0);
 const VALID_USERNAME = "Bubbles";     // her first pet's name
 const VALID_PASSWORD = "25092025";  // ddmmyyyy
