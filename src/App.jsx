@@ -19,10 +19,10 @@ const VALID_USERNAME = "Bubbles";     // her first pet's name
 const VALID_PASSWORD = "25092025";  // ddmmyyyy
 
 const placeholderImages = [
-  { src: "components/images/ice-ream.jpeg", caption: "Ice Cream Date" },
-  { src: "components/images/hands.jpeg", caption: "Indomie Date" },
-  { src: "components/images/limo-ride.jpeg", caption: "Limo Ride" },
-  { src: "components/images/beach.jpeg", caption: "Beach Outing" },
+  { src: "/images/ice-ream.jpeg", caption: "Ice Cream Date" },
+  { src: "/images/hands.jpeg", caption: "Indomie Date" },
+  { src: "/images/limo-ride.jpeg", caption: "Limo Ride" },
+  { src: "/images/beach.jpeg", caption: "Beach Outing" },
 ];
 
 function useCountdown(targetDate) {
@@ -158,7 +158,7 @@ const AnniversaryAppContent = () => {
   return (
     <div className="min-h-screen relative bg-gradient-to-br from-pink-100 via-rose-100 to-fuchsia-100 text-zinc-800">
       <FloatingHearts count={24} />
-      <audio ref={audioRef} src="components/music.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/music.mp3" loop preload="auto" />
 
       <header className="max-w-5xl mx-auto px-4 pt-12 pb-8 text-center">
         <motion.h1 className="text-4xl sm:text-6xl font-extrabold">Happy Anniversary</motion.h1>
